@@ -1,0 +1,79 @@
+<!--Portfolio-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="../css/style.css"> for when we learn how to make fodlers work on filezilla-->
+    <title>Port-folio</title>
+</head>
+<body style="background-color: #F7BBDB">
+    <!--Add table of project ideas you have-->
+    <h1 id="portfolio">What I'm currently working on!</h1>
+    <nav>
+        <a href="index.html">Home Page</a>
+        <a href="portfolio.html">About Page</a>
+        <a href="about.html">Portfolio</a>
+    </nav>
+    <table>
+        <!--Add links to pages once you start work on them-->
+        <!--Cool idea: Add in an interactive window where users can submit their own code-->
+        <tr>
+            <td>Company FAQ page</td>
+            <td>Resume website for girlfriend</td>
+        </tr>
+        <tr>
+            <td>Transferring SLCC E-Portfolio</td>
+            <td>Interactive exhibit of the Louvre</td>
+        </tr>
+        <tr>
+            <td>Websites I like/Use often all on one page</td>
+            <td>Interactive money saving/Budgeting page</td>
+        </tr>
+        <tr>
+            <td>Page that can upload, rename, and file<br>paperwork from photos</td>
+            <td>Game page with Chess and other simple games</td>
+        </tr>
+    </table>
+
+    <br>
+    <br>
+    <br>
+
+    <p>Have your own cool idea? Submit it here:</p>
+    <!--Make a post form to impress teacher-->
+    <form action="results.html" method="get" target="_blank">
+        <div>
+            <label for="idea-name">Idea Name:</label>
+            <input type="text" name="ideaname" id="idea-name">
+        </div>
+        
+        <div>
+            <label for="idea-description">Idea Description:</label><br>
+            <textarea   name="ideadescription" 
+                    id="idea-description" 
+                    cols="30" 
+                    rows="10" 
+                    maxlength="1000">
+            </textarea>
+        </div>
+
+        <div>
+            <p>Is your idea cool enough?</p>
+            <input type="radio" name="idearadio" id="yes" value="Yes">
+            <label for="yes">Yes</label>
+
+            <input type="radio" name="idearadio" id="no" value="No">
+            <label for="no">No</label>
+            
+        </div>
+
+        <br>
+        
+        <button type="submit">Submit Idea</button>
+
+    </form>
+</body>
+</html>

@@ -1,0 +1,36 @@
+/**/
+
+* {
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+}
+
+.flexcontainer {
+    flex: initial;
+    justify-content: space-between;
+}
+
+.leftflex {
+    justify-content: flex-start;
+    width: 20%;
+    height: 80%;
+    margin-left: 10%;
+    padding: 10%;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+}
+
+.rightflex{
+    justify-content: flex-end;
+    width: 20%;
+    height: 80%;
+    margin-right: 10%;
+    padding: 10%;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+}
